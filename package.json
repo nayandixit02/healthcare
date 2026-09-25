@@ -1,0 +1,27 @@
+{
+  "name": "eve-healthcare-monorepo",
+  "version": "1.0.0",
+  "description": "EVE Healthcare Backend & Frontend Fullstack Service (Node.js, Express, PostgreSQL, React)",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "client": "npm --prefix client run dev",
+    "dev": "node server/src/server.js",
+    "build": "npm --prefix client run build",
+    "seed": "node server/src/db/seed.js",
+    "test": "npm --prefix server test",
+    "test:watch": "npm --prefix server test -- --watch"
+  },
+  "keywords": [
+    "healthcare",
+    "nodejs",
+    "express",
+    "postgresql",
+    "react",
+    "vite",
+    "jwt",
+    "idempotent-webhooks"
+  ],
+  "author": "EVE Healthcare Team",
+  "license": "ISC"
+}
